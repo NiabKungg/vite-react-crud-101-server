@@ -79,6 +79,6 @@ app.delete('/delete/:id', (req, res) => {
     })
 })
 
-app.listen(5173, () => {
-    console.log('Server is running on port 5173');
+app.listen(3001, () => {
+    console.log('Server is running on port 3001');
 });
